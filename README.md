@@ -4,6 +4,10 @@
 
 Welcome to the Red Bus Testing Instructions Generator! This tool leverages multimodal AI to generate detailed testing instructions for features of the Red Bus mobile app, based on uploaded screenshots. By combining the power of CLIP for image-text matching and llama-3.1-70b-versatile for text generation, this tool simplifies the process of creating comprehensive test cases.
 
+I have tried with two python frameworks i.e.,
+  - **streamlit**:- which has the capability for uploading multi-images
+  2) **gradio**:- single-image uploader
+
 ## **Features**
 
 - **Image-Based Feature Identification**: Upload screenshots of the Red Bus app, and the tool will automatically identify the relevant feature.
